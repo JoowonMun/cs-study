@@ -1,0 +1,39 @@
+# 개인 메모 (회사 관련 등, 공개하지 않음)
+private/
+
+# 비밀 정보
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# C
+*.o
+*.out
+*.exe
+a.out
+
+# Java
+*.class
+build/
+.gradle/
+target/
+
+# 데이터베이스 파일
+*.db
+*.sqlite3
+
+# 에디터 / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
