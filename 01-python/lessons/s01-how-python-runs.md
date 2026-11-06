@@ -523,13 +523,6 @@ scores 출력, backup 출력
 
 </details>
 
-다 짰으면 커밋한다.
-
-```bash
-git add 01-python
-git commit -m "01-python/s01: 이름표 모델 실습"
-git push
-```
 
 ---
 
