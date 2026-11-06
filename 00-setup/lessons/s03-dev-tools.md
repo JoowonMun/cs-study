@@ -448,9 +448,9 @@ print("hello")
 
 > ⚠️ **줄바꿈 주의:** 마크다운에서는 Enter를 한 번 쳐도 줄이 바뀌지 않고 앞 줄에 이어 붙는다. 문단을 나누려면 **빈 줄**을 넣는다.
 
-### 실습 5. 이번 주 학습 일지 쓰기
+### 실습 5. 마크다운 연습 문서 쓰기
 
-`journal/README.md`의 템플릿을 참고해 `journal/2026-W45.md`를 만들고, 이번 주 학습 일지를 쓴다. **아래 문법을 모두 한 번 이상** 써 본다.
+`00-setup/labs/markdown-practice.md`를 만들고, 오늘 배운 내용을 자유롭게 정리한다. **아래 문법을 모두 한 번 이상** 써 본다.
 
 - [ ] 제목 (`#`, `##`)
 - [ ] 체크박스
@@ -458,21 +458,21 @@ print("hello")
 - [ ] 인라인 코드
 - [ ] 코드 블록 (오늘 쓴 명령어 몇 줄)
 - [ ] 표
-- [ ] 링크 (오늘 강의 자료 링크: `[s03 강의 자료](../00-setup/lessons/s03-dev-tools.md)`)
+- [ ] 링크 (오늘 강의 자료 링크: `[s03 강의 자료](../lessons/s03-dev-tools.md)`)
 
 `Ctrl + K` → `V`로 미리보기를 옆에 띄워 놓고 쓰면 결과를 바로 확인할 수 있다. 다 쓰면 커밋하고 push한다. GitHub 웹에서도 같은 모양으로 보이는지 확인한다.
 
 ```bash
-git add journal/2026-W45.md
-git commit -m "journal: 2026-W45 학습 일지"
+git add 00-setup/labs/markdown-practice.md
+git commit -m "00-setup/s03: 마크다운 연습"
 git push
 ```
 
-**Q1.** 링크에 쓴 `../00-setup/lessons/s03-dev-tools.md`는 절대 경로인가, 상대 경로인가? `..`은 어디를 가리키는가?
+**Q1.** 링크에 쓴 `../lessons/s03-dev-tools.md`는 절대 경로인가, 상대 경로인가? `..`은 어디를 가리키는가?
 <details>
 <summary>정답 보기</summary>
 
-상대 경로다. 일지 파일이 있는 `journal/` 폴더가 기준이고, `..`은 그 부모인 `cs-study/`를 가리킨다. 거기서 `00-setup/lessons/s03-dev-tools.md`로 내려간다. s01의 경로 개념이 마크다운 링크에도 그대로 쓰인다.
+상대 경로다. 연습 문서가 있는 `00-setup/labs/` 폴더가 기준이고, `..`은 그 부모인 `00-setup/`을 가리킨다. 거기서 `lessons/s03-dev-tools.md`로 내려간다. s01의 경로 개념이 마크다운 링크에도 그대로 쓰인다.
 
 </details>
 

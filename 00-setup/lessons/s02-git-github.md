@@ -362,14 +362,14 @@ git push -u origin main
 
 브라우저에서 `https://github.com/아이디/cs-study`를 열어 파일이 올라갔는지 확인한다. `README.md`가 첫 화면에 렌더링되어 보일 것이다.
 
-**4) 학습 일지까지 올려 보기**
+**4) 두 번째 커밋 올려 보기**
 
-마무리 퀴즈를 풀고 `journal/`에 이번 주 일지를 쓴 뒤, 두 번째 커밋을 직접 해 본다.
+마무리 퀴즈까지 끝낸 뒤, 남은 변경 사항으로 두 번째 커밋을 직접 해 본다.
 
 ```bash
 git status
 git add .
-git commit -m "00-setup/s02: Git 강의 자료와 학습 일지"
+git commit -m "00-setup/s02: Git 강의 자료 수정"
 git push
 ```
 
